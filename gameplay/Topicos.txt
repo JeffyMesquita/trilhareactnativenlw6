@@ -1,0 +1,6 @@
+App Gameplay ->
+
+- Utilização do Expo como ambiente de desenvolvimento
+- Start do projeto Utilizando TypeScript
+- Conceitos de Estados, Componentes e Propriedades
+- 
