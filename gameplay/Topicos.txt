@@ -3,4 +3,13 @@ App Gameplay ->
 - Utilização do Expo como ambiente de desenvolvimento
 - Start do projeto Utilizando TypeScript
 - Conceitos de Estados, Componentes e Propriedades
+- Utilização de Fontes Personalizadas(Google Fonts) com Expo fonts
 - 
+
+
+Dependências ->
+
+expo install expo-font @expo-google-fonts/inter
+expo install @expo-google-fonts/rajdhani
+expo install expo-app-loading 
+expo install expo-linear-gradient
