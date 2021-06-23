@@ -4,12 +4,26 @@ App Gameplay ->
 - Start do projeto Utilizando TypeScript
 - Conceitos de Estados, Componentes e Propriedades
 - Utilização de Fontes Personalizadas(Google Fonts) com Expo fonts
-- 
+- Uso do React Navigation mais precisamente o Stack Navigation para Navegação entre telas
 
 
 Dependências ->
 
 expo install expo-font @expo-google-fonts/inter
-expo install @expo-google-fonts/rajdhani
+   expo install @expo-google-fonts/rajdhani
+
 expo install expo-app-loading 
+
 expo install expo-linear-gradient
+
+yarn add react-native-iphone-x-helper
+
+yarn add @react-navigation/native
+   expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+      yarn add @react-navigation/stack
+
+expo install react-native-svg
+   yarn add --dev react-native-svg-transformer
+
+
+
