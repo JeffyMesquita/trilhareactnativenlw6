@@ -29,7 +29,7 @@ export function Category({
          >
             <View style={[styles.content, { opacity: checked ? 1 : 0.4 }]}>
                <View style={
-                  checked ? styles.checked : styles.check
+                  checked ? styles.checked : styles.check                  
                }/>
 
                <Icon 
