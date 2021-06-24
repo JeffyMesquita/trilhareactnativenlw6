@@ -3,7 +3,8 @@ import {
    ScrollView,   
 } from 'react-native';
 
-import { styles } from "./styles";
+import { styles } from './styles';
+import { categories } from '../../utils/Categories';
 
 export function CategorySelect() {
    return(
@@ -14,6 +15,13 @@ export function CategorySelect() {
          contentContainerStyle={{ paddingRight: 40 }}
       >
 
+         {
+            categories.map(category => {
+               <Category 
+               
+               />
+            })
+         }
 
       </ScrollView>   
    )
