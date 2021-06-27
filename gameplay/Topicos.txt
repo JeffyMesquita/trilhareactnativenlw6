@@ -5,7 +5,10 @@ App Gameplay ->
 - Conceitos de Estados, Componentes e Propriedades
 - Utilização de Fontes Personalizadas(Google Fonts) com Expo fonts
 - Uso do React Navigation mais precisamente o Stack Navigation para Navegação entre telas
-
+- Grande foco em componentização pra reutilização de código
+- aplicação do useContext e criação de um próprio hook(useAuth) para autenticação
+- uso do OAuth2 como protocolo de autenticação através do AuthSession do expo 
+- Utilização do Axios para consumir as APIs do Discord 
 
 Dependências ->
 
@@ -26,6 +29,12 @@ expo install react-native-svg
    yarn add --dev react-native-svg-transformer
 
 yarn add react-native-iphone-x-helper
+
+expo install expo-auth-session expo-random
+
+yarn add axios
+
+
 
 
 
