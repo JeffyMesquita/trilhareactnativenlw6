@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, FlatList, ImageComponent} from 'react-native';
-import { GuildProps } from '../../components/Appointment';
 
+import { GuildProps } from '../../components/Guild';
 import { Guild } from '../../components/Guild';
 import { ListDivider } from '../../components/ListDivider';
 

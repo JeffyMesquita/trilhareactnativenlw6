@@ -6,8 +6,7 @@ import { styles } from './styles';
 export function TextArea({...rest}: TextInputProps) {
    return (
       <TextInput 
-         style={styles.container}
-         keyboardType="numeric"
+         style={styles.container}         
          {...rest}
       />
 
