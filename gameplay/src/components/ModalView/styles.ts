@@ -10,13 +10,25 @@ export const styles = StyleSheet.create({
       flex: 1,
       backgroundColor: theme.colors.overlay,
    },
+   barTop: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center'
+   },
    bar: {
-      width: 39,
-      height: 2,
-      borderRadius: 2,
+      width: 75,
+      height: 3,
+      borderRadius: 4,
       backgroundColor: theme.colors.secondary30,
       alignSelf: 'center',
-      marginTop: 13,
-      marginBottom: 103,
-   },
+      marginTop: 13,  
+      marginHorizontal: 3,    
+   },  
+   title: {
+      flex: 1,
+      textAlign: 'center',
+      fontFamily: theme.fonts.title700,
+      fontSize: 20,
+      color: theme.colors.heading,
+   }
 })
