@@ -9,6 +9,9 @@ App Gameplay ->
 - aplicação do useContext e criação de um próprio hook(useAuth) para autenticação
 - uso do OAuth2 como protocolo de autenticação através do AuthSession do expo 
 - Utilização do Axios para consumir as APIs do Discord 
+- Tratamento de configurações sensíveis
+- Uso do AsyncStorage para persistir as informações do usuário localmente no seu dispositivo 
+- Listagem dos servidores do Discord
 
 Dependências ->
 
@@ -34,6 +37,9 @@ expo install expo-auth-session expo-random
 
 yarn add axios
 
+yarn add dotenv babel-plugin-inline-dotenv (acesso as variáveis de ambiente)
+
+expo install @react-native-async-storage/async-storage
 
 
 
