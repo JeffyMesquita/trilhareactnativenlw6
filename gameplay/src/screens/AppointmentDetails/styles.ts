@@ -8,32 +8,39 @@ export const styles = StyleSheet.create({
    },
    banner: {
       width: '100%',
-      height: 234, 
+      height: 234,
    },
    bannerContent: {
       flex: 1,
       justifyContent: 'flex-end',
       paddingHorizontal: 24,
-      marginBottom: 30,
+      marginBottom: 30
    },
    title: {
-      fontFamily: theme.fonts.title700,
       fontSize: 28,
-      color: theme.colors.heading,
+      fontFamily: theme.fonts.title700,
+      color: theme.colors.heading
    },
    subtitle: {
-      fontFamily: theme.fonts.text400,
       fontSize: 13,
+      fontFamily: theme.fonts.text400,
       color: theme.colors.heading,
-      lineHeight: 21,
+      lineHeight: 21
    },
    members: {
       marginLeft: 24,
-      marginTop: 27,
+      marginTop: 27
    },
    footer: {
       paddingHorizontal: 24,
       paddingVertical: 20,
       marginBottom: getBottomSpace(),
+   },
+   emptyContainer: {
+      alignItems: 'center',
+   },
+   emptyText: {
+      fontFamily: theme.fonts.text500,
+      color: theme.colors.heading
    }
-})
+});
