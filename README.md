@@ -29,7 +29,7 @@ Clone the project and access the folder.
 
 ```bash
 $ git clone https://github.com/jeffymesquita/trilhareactnativenlw6.git
-$ cd nlw-06-gameplay
+$ cd gameplay
 ```
 
 Remember to create your App on the Discord server to get the authentication credentials. Then define your App settings in the .env file (remove the example from the .env.example file).
