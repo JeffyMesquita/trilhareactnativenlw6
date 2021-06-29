@@ -13,6 +13,7 @@ App Gameplay ->
 - Uso do AsyncStorage para persistir as informações do usuário localmente no seu dispositivo 
 - Listagem dos servidores do Discord
 - Instalação de  biblioteca para gerar Id no padrão uuid
+- Entre outras funcionalidades do Discord
 
 Dependências ->
 
