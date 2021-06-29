@@ -64,4 +64,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) fi
 
 ---
 
-Made with  by [jeffymesquita](...) 👋
+Made with :heartpulse: by [jeffymesquita](...) 👋
